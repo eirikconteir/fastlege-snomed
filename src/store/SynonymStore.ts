@@ -1,11 +1,16 @@
 import { apiOptions, handleResponse } from "../api";
 import { limit } from "../config";
 
+interface IAcceptibility {
+  47351000202107: string;
+}
+
 interface IDescription {
   term: string;
   type: string;
   lang: string;
   descriptionId: string;
+  acceptabilityMap: Readonly<47351000202107>;
 }
 
 interface ISynonymResult {

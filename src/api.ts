@@ -1,6 +1,7 @@
 const headers = {
   Accept: "application/json",
-  "Accept-Language": "nb-NO,no,nb;q=0.9,nn;q=0.8,en-US;q=0.7,en-GB;q=0.6",
+  "Accept-Language":
+    "nb-NO,no,nb-X-61000202103;q=0.9,nn;q=0.8,en-US;q=0.7,en-GB;q=0.6",
   "Content-Type": "application/json",
 };
 

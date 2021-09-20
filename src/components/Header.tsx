@@ -15,17 +15,17 @@ const Header = ({ scope }: HeaderProps) => {
   return (
     <header className="row">
       <div>
-      <h1>Search Snowstorm @ E-helse</h1>
-    </div>
+        <h1>Termer for fastleger</h1>
+      </div>
       <div className="col">
         <nav className="navbar navbar-expand mb-3">
           <ul className="navbar-nav mr-auto">
             <li className={itemClassNames("")}>
               <Link className="nav-link" to="/">
-                Resett
+                Tilbakestill
               </Link>
             </li>
-           
+
             {false && (
               <li className={itemClassNames("helsenorge")}>
                 <Link className="nav-link" to="/?scope=helsenorge">

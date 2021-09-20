@@ -3,12 +3,12 @@ export const clinicalTrialsUrl =
 
 export const episerverUrl = "http://localhost:51338/sokeside/snomed";
 
-export const defaultBranch = "MAIN/SNOMEDCT-NO";
+export const defaultBranch = "MAIN/FASTLEGE";
 
 export const hosts = [
-  "https://test.terminologi.ehelse.no",
+  /* "https://test.terminologi.ehelse.no",
   "https://qa.terminologi.ehelse.no",
-  "https://terminologi.ehelse.no",
+  "https://terminologi.ehelse.no",*/
   "https://snowstorm.conteir.no",
 ];
 
@@ -26,7 +26,7 @@ export const codeSystems = [
   {
     branch: "MAIN/ICPC-2",
     id: "450993002",
-    title: "ICPC-2B",
+    title: "ICPC-2",
   },
   /* {
     branch: "MAIN/SNOMEDCT-NO/REFSET2",
@@ -46,14 +46,15 @@ export const codeSystems = [
 ];
 
 export const referenceSets = [
+  /*
   {
     id: "",
     title: "[Not specified]",
   },
-  /*{
+  {
     id: "816210007",
     title: "MedDRA",
-  },*/
+  },
   {
     id: "123456789",
     title: "NCxP - 123456789",
@@ -61,10 +62,10 @@ export const referenceSets = [
   {
     id: "17551000202109",
     title: "Fastlege/ICPC2 - 17551000202109",
-  },
+  },*/
   {
-    id: "450993002",
-    title: "ICPC-2B - 450993002",
+    id: "123456789",
+    title: "Fastlege",
   },
 ];
 

@@ -20,6 +20,7 @@ const Synonym = ({ host, branch, preferredTerm, conceptId }: SynonymProps) => {
       {synonyms
         .filter(({ type }) => type === "SYNONYM")
         .filter(({ lang }) => languages.includes(lang))
+
         .filter(({ term }) => term !== preferredTerm)
         .map(({ term, descriptionId: id }) => (
           <p key={id}>{term}</p>
